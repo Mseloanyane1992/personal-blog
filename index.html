@@ -3,21 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffccf9, #d5aaee, #99bbff);
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background: #ffccf9;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            display: inline-block;
+        }
+        .project {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .contact {
+            background: #ffccf9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Page</h1>
-        <p>This is a simple webpage created with HTML.</p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Hi! I'm learning how to create webpages. This is my first attempt, and I'm excited to explore more.</p>
-    </section>
+<header>
+    <h1>Welcome to My World</h1>
+    <p>Your dose of empowerment, skills, and inspiration!</p>
+</header>
 
-    <footer>
-        <p>&copy; 2024 My First Webpage. All rights reserved.</p>
-    </footer>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a 32-year-old woman from Lesotho with a background in Chemical and Petroleum Engineering. Currently pursuing a PhD in Mechanical Engineering, my research focuses on developing advanced composite materials for extreme geothermal drilling. Beyond academia, I’m a teacher, mentor, and passionate advocate for women's empowerment, particularly in STEM fields.</p>
+    <p>When I'm not exploring engineering challenges, I engage in creative ventures like knitting, crocheting, and dropshipping, while also working to establish businesses in mohair processing and holistic beauty. I believe in sharing knowledge, fostering growth, and motivating others to chase their dreams fearlessly.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>SheSTEMfluence</h3>
+        <p>An empowerment platform aimed at inspiring women in STEM through workshops, content creation, and community-building initiatives.</p>
+    </div>
+
+    <div class="project">
+        <h3>Educational Content Creation</h3>
+        <p>Developing resources, podcasts, and training programs that simplify complex STEM concepts for students and aspiring professionals.</p>
+    </div>
+
+    <div class="project">
+        <h3>Skill-Sharing Initiatives</h3>
+        <p>Offering hands-on training and mentorship in knitting, crocheting, and dropshipping to encourage self-reliance and creativity.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+        <p>Want to collaborate or reach out? Here's how you can find me:</p>
+        <ul>
+            <li>Email: [Your Email]</li>
+            <li>LinkedIn: [Your LinkedIn Profile]</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Personal Blog. Designed with love and purpose.</p>
+</footer>
+
 </body>
 </html>
